@@ -1,0 +1,37 @@
+< THE SYMBOL TABLE >  lab1.exe  --  emu8086 assembler version: 4.05 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+STACK                    	00000     	-5        	SEGMENT   	(ITSELF)  
+DATA                     	00010     	-5        	SEGMENT   	(ITSELF)  
+MESSAGE_INPUT            	00000     	1         	VAR       	data      
+MESSAGE_OUTPUT           	0001B     	1         	VAR       	data      
+MESSAGE_ERROR            	00024     	1         	VAR       	data      
+MESSAGE_SOURCE           	0002C     	1         	VAR       	data      
+ENDLINE                  	00038     	1         	VAR       	data      
+LINE                     	0003B     	1         	VAR       	data      
+CODE                     	00021     	-5        	SEGMENT   	(ITSELF)  
+START                    	00000     	-1        	LABEL     	code      
+STR                      	0002C     	-1        	LABEL     	code      
+MAIN_LOOP                	0004F     	-1        	LABEL     	code      
+FIRST_WORD               	00068     	-1        	LABEL     	code      
+LOOP_PER_LINE            	00080     	-1        	LABEL     	code      
+CHECK_COMPARE            	00093     	-1        	LABEL     	code      
+CHECK_WHITESPACE         	0009E     	-1        	LABEL     	code      
+COMPARE                  	000A7     	-1        	LABEL     	code      
+CHANGE                   	000BF     	-1        	LABEL     	code      
+LOOP1                    	000C9     	-1        	LABEL     	code      
+LOOP2                    	000D1     	-1        	LABEL     	code      
+LOOP3                    	000DD     	-1        	LABEL     	code      
+LOOP4                    	000ED     	-1        	LABEL     	code      
+LOOP5                    	000F8     	-1        	LABEL     	code      
+LOOP6                    	0010D     	-1        	LABEL     	code      
+CHECK_LOOP               	00116     	-1        	LABEL     	code      
+TAB_TO_SPACE             	00124     	-1        	LABEL     	code      
+ERROR_END                	00129     	-1        	LABEL     	code      
+THE_END                  	00137     	-1        	LABEL     	code      
+ENDEND                   	00152     	-1        	LABEL     	code      
+===================================================================================================
+[ 01.04.2025  --  23:47:15 ] 
+< END >
+ 
